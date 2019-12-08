@@ -1,4 +1,4 @@
-import request from 'requests';
+#!/usr/bin/env node
 
 let helloWorld = 'Hello World!';
 
