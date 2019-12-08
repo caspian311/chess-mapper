@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib",
-    "setup": "jest --init",
     "clean": "rm -fR lib",
+    "build": "babel src -d lib",
     "test": "jest",
     "run": "node lib/main.js"
   },

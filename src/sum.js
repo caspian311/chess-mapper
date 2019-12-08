@@ -1,5 +1,12 @@
-function sum(a, b) {
+const foo = require('./other').foo;
+
+const sum = (a, b) => {
   return a + b;
 }
 
-module.exports = sum;
+const huh = () => {
+  return foo();
+}
+
+exports.sum = sum;
+exports.huh = huh;
