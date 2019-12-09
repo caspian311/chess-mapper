@@ -1,12 +1,8 @@
-const foo = require('./other').foo;
+exports.sum = (a, b) => {
+  return a + b + 1;
+};
 
-const sum = (a, b) => {
-  return a + b;
-}
+exports.huh = () => {
+  return 'bar';
+};
 
-const huh = () => {
-  return foo();
-}
-
-exports.sum = sum;
-exports.huh = huh;

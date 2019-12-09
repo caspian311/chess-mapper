@@ -1,9 +1,6 @@
-#!/usr/bin/env node
+const { run } = require('./app');
 
-const sum = require('./sum').sum;
-const huh = require('./sum').huh;
+console.log('Start');
+run();
 
-let helloWorld = 'Hello World!';
-
-console.log(`${helloWorld} - my sum is ${sum(1, 2)}`);
-console.log(`oi! - ${huh()}`);
+console.log('Done');
