@@ -29,18 +29,18 @@ const translateColumn = (column) => {
   return columns[column]
 }
 
-const getMovesForType = (type, location, turn) => {
+const getMovesForType = (type, location) => {
   const moves = []
   switch(type) {
     case 'r':
-      for (var i=0; i<8; i++) {
+      for (var i=1; i<=8; i++) {
         if (i === location.row) {
           continue
         }
         const move = { row: i, column: location.column}
         moves.push(move)
       }
-      for (var i=0; i<8; i++) {
+      for (var i=1; i<=8; i++) {
         const column = translateColumn(i)
         if (column === location.column) {
           continue
