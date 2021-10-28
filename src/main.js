@@ -1,6 +1,6 @@
-const { run } = require('./app');
+const { run } = require('./app')
 
-console.log('Start');
-run();
+console.log('Start')
+run()
 
-console.log('Done');
+console.log('Done')

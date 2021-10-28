@@ -4,7 +4,6 @@ module.exports = {
   testEnvironment: "node",
   verbose: true,
   moduleDirectories: [
-    "node_modules",
-    "lib"
+    "node_modules"
   ]
 };
